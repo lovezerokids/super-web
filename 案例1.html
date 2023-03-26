@@ -1,0 +1,61 @@
+<!doctype html>
+<script charset="utf-8" src="example.js"></script>
+<html>
+
+  <head>
+    <title>love_0081</title>
+    <style>
+      /* CSS样式代码 */
+        body {
+            background-color: #f9f9f9;  
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+      h1 {
+        font-size: 32px;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 0 0 24px;
+      }
+      a {
+        color: #337ab7;
+        text-decoration: none;
+      }
+        button {
+            background-color: #FF0000;     /背景颜色为红色
+            border: none;                  // 去掉边框
+            border-radius: 5px;            // 圆角半径为5px
+            color: #fff;                   // 文字颜色为白色
+            cursor: pointer;               // 鼠标移动到该元素上时变成手型指针
+            font-size: 16px;               // 字号为16像素
+            padding: 10px;                 // 内边距为10像素
+        }
+      button:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HTML结构代码 -->
+    <header>
+      <h1>我的第一个网页实例</h1>
+    </header>
+    <main>
+      <p>各位乡亲父老兄弟姐妹大家好 </p>
+      <button>Learn More</button>
+    </main>
+    <script>
+      // JavaScript脚本代码
+      var button = document.querySelector('button');
+        button.addEventListener('click', function () {
+            window.open("https://www.baidu.com");
+        alert('You clicked the button!');
+      });
+    </script>
+  </body>
+</html>
